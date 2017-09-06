@@ -7,11 +7,11 @@ import java.util.Scanner;
 public class FileReader
 {
 public static void main(String[] args) throws FileNotFoundException{
-		//Scanner a = new Scanner();
-		File q = new File("");
+ 	    String a = "";
+	    File q = new File("");
 	    String currentPath = q.getAbsolutePath();
 	    System.out.println(currentPath);
-		Scanner input = new Scanner(new File("C:\\Users\\Jake Bradberry\\TestFile.txt.txt"));
+		Scanner input = new Scanner(new File(a));
 		ArrayList<String> fileInputs = new ArrayList<String>();
 		while(input.hasNextLine())
 		{
